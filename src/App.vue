@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>黑马头条</h1>
     <router-view/>
   </div>
 </template>
@@ -13,5 +12,10 @@
   text-align: center;
   color: #2c3e50;
 }
+  .box{
+    width: 200px;
+    height: 100px;
+    background-color: pink;
+  }
 
 </style>
